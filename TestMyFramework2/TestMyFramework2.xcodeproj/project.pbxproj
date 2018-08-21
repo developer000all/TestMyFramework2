@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B04079BF212B0B3600F726DA /* TestMyFramework2.h in Headers */ = {isa = PBXBuildFile; fileRef = B04079BD212B0B3600F726DA /* TestMyFramework2.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B04079CC212B0F1600F726DA /* MyTestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04079CB212B0F1500F726DA /* MyTestClass.swift */; };
+		B0908319212BFA9C00A1651C /* MyTestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0908318212BFA9C00A1651C /* MyTestClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B04079BA212B0B3600F726DA /* TestMyFramework2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestMyFramework2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04079BD212B0B3600F726DA /* TestMyFramework2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestMyFramework2.h; sourceTree = "<group>"; };
 		B04079BE212B0B3600F726DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B04079CB212B0F1500F726DA /* MyTestClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTestClass.swift; sourceTree = "<group>"; };
+		B0908318212BFA9C00A1651C /* MyTestClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTestClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +32,7 @@
 		B04079B0212B0B3500F726DA = {
 			isa = PBXGroup;
 			children = (
-				B04079CA212B0F1500F726DA /* Classes */,
+				B0908317212BFA9C00A1651C /* Classes */,
 				B04079BC212B0B3600F726DA /* TestMyFramework2 */,
 				B04079BB212B0B3600F726DA /* Products */,
 			);
@@ -55,12 +55,13 @@
 			path = TestMyFramework2;
 			sourceTree = "<group>";
 		};
-		B04079CA212B0F1500F726DA /* Classes */ = {
+		B0908317212BFA9C00A1651C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B04079CB212B0F1500F726DA /* MyTestClass.swift */,
+				B0908318212BFA9C00A1651C /* MyTestClass.swift */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B04079CC212B0F1600F726DA /* MyTestClass.swift in Sources */,
+				B0908319212BFA9C00A1651C /* MyTestClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
